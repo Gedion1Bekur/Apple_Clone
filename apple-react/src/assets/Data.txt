@@ -1,0 +1,4 @@
+const apiKey = process.env.REACT_APP_API_KEY;
+const channelId = process.env.REACT_APP_CHANNEL_ID;
+const AppleChannelIOd = process.env.REACT_APP_APPLE_CHANNEL_ID;
+const searchId = process.env.REACT_APP_SEARCH_ID;

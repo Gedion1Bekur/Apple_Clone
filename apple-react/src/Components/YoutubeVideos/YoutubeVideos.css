@@ -1,0 +1,141 @@
+/* Reset default styles
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  width: 100%;
+  max-width: 370px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.card-img img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #eee;
+}
+
+.card-title-price {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.card-title-price > h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-title-price > p {
+  background-color: #ff6f00;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+
+
+.card-description {
+  padding: 0 20px;
+  font-size: 14px;
+  color: #555;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+/* Responsive design for smaller screens */
+/* @media (max-width: 768px) {
+  .card {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+} */ 
+
+/* .card-img-top {
+  height: 100px; /* Set a fixed height for all images */
+  /* object-fit: cover; Ensure the image covers the space without distortion */
+  /* width: 100%; Make sure the image takes the full width of the card */
+
+
+/* .test {
+display: flex;
+justify-content:  center;
+align-items: center;
+} */
+.Product-card{
+  width: 20%;
+  border: 1px solid black;
+  box-shadow: 5px 1px 2px 2px gray;
+  overflow: hidden;
+ height: auto;
+  padding: 10px;
+  background-color: ffgrey;
+  box-shadow:rgb(100,100,11,0.2)  0x 7x 29px 0px;
+
+
+
+}
+
+.Product-card img{
+
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.descrtption h1{
+font-size: 28px;
+color: rebeccapurple;
+}
+
+.price {
+  margin: 8px 0px ;
+  color: #222;
+  font-weight: bold;
+}
+
+span{
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.descrtption .para{
+  font-size: 12px;
+}
+
+.descrtption .btn{
+  margin: 10px;
+
+  outline: none;
+
+  /* border: 1px solid red; */
+  /* background-color: green; */
+  border-radius: 40px;
+  background: none;
+
+  font-weight: bold;
+  /* text-transform: uppercase; */
+  cursor: pointer;
+  transition: .1s linear;
+}
+.descrtption .btn:hover{
+  background-color:#FCE8E5;
+  /* color:#fff; */
+}
