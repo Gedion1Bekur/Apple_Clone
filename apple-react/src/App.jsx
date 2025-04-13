@@ -15,11 +15,11 @@ import './App.css'
 import Iphone from "./page/Iphone/Iphone";
 import Ipad from "./page/ipad/Ipad";
 import WatchNav from "./page/watchNav/WatchNav";
-import Tv from "./page/Tv/Tv";
+import Tv from "./page/tv/Tv"
 import Music from "./page/music/Muisc";
-import Support from "./page/Support/Support";
+import Support from "./page/support/Support";
 import Search from "./page/seacrch/Search";
-import Cart from "./page//cart/Cart";
+import Cart from "./page/cart/Cart";
 import Four04 from "./page/Four04/Four04";
 import Offcanva from './page/Offcanvas/Offcannva'
 export default function App() {
