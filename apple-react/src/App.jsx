@@ -13,7 +13,7 @@ import './App.css'
 //!pages
 
 import Iphone from "./page/Iphone/Iphone";
-import Ipad from "./page/Ipad/Ipad";
+import Ipad from "./page/ipad/Ipad";
 import WatchNav from "./page/watchNav/WatchNav";
 import Tv from "./page/Tv/Tv";
 import Music from "./page/music/Muisc";
